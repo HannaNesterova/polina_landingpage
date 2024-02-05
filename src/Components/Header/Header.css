@@ -1,0 +1,16 @@
+.navbar .container-fluid{
+    background-color: #141024 !important;
+}
+
+.navbar-nav a{
+    font-size: 24px !important;
+    color: white;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+}
+.navbar-brand{
+    font-size: 24px !important;
+    color: white;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+}
