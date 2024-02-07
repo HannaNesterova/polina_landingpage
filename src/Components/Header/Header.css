@@ -29,6 +29,7 @@
 .my-navbar {
     --bs-navbar-padding-x: 0;
     --bs-navbar-padding-y: 0;
+    margin-bottom: 0;
   }
 
 
@@ -48,33 +49,27 @@
     background: linear-gradient(45deg, #120e20, #151127); 
     box-shadow: 2px -3px 7px #b0aeb6a7, -2px 5px 7px #ffffff5a; 
     padding-right: 0;
-    overflow: hidden; 
-    
-    /* Добавляем белые полоски */
-    &::before, &::after {
-        content: ''; /* Обязательно для псевдоэлементов */
-        position: absolute; /* Абсолютное позиционирование относительно родительского элемента */
-        background-color: #fff; /* Белый цвет */
+    overflow: hidden; &::before, &::after {
+        content: ''; 
+        position: absolute; 
+        background-color: #fff; 
         width: 60%; /* Ширина полоски */
         height: 3px; /* Высота полоски */
         top: calc(50% - 2px); /* Положение полоски */
         left: 50%; /* Положение полоски */
         transform: translateX(-50%); /* Центрируем полоску */
-        transition: all 0.3s ease; /* Анимация */
+        transition: all 0.3s ease; 
     }
     
-    /* Полоски в верхней части */
     &::before {
-        top: calc(50% - 7px); /* Положение первой полоски */
+        top: calc(50% - 7px);
     }
     
-    /* Полоски в нижней части */
     &::after {
-        top: calc(50% + 4px); /* Положение второй полоски */
+        top: calc(50% + 4px);
     }
 }
 
-/* Убираем встроенный бордер и иконку */
 .navbar-toggler .navbar-toggler-icon {
     display: none;
 }

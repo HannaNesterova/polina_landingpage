@@ -12,7 +12,7 @@ function Header() {
   return (
     <>
       {['md'].map((expand) => (
-        <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3 navbar-cont my-navbar">
+        <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-0 navbar-cont my-navbar">
           <Container fluid>
             <Navbar.Brand href="#">Polina</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className="your-custom-class" />
