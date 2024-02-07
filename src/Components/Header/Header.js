@@ -8,17 +8,14 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-
-function Header(){
-
-
+function Header() {
   return (
     <>
       {['md'].map((expand) => (
-        <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3 navbar-cont">
+        <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3 navbar-cont my-navbar">
           <Container fluid>
-            <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Brand href="#">Polina</Navbar.Brand>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className="your-custom-class" />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
@@ -26,29 +23,16 @@ function Header(){
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  Меню
                 </Offcanvas.Title>
+                <p>kjnfjbgfjkb</p>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">Link</Nav.Link>
+                  <Nav.Link href="#action1">Курс</Nav.Link>
+                  <Nav.Link href="#action2">Социальные сети</Nav.Link>
                   <Nav.Link href="#action3">Work</Nav.Link>
-                  <Nav.Link href="#action4">About me</Nav.Link>
-                  <NavDropdown
-                    title="Social Medias"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
-                    
-                  >
-                    <NavDropdown.Item href="#action3"> Social Medias</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      Another action
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
-                      Something else here
-                    </NavDropdown.Item>
-                  </NavDropdown>
+                  <Nav.Link href="#action4">Обо мне</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
@@ -58,6 +42,5 @@ function Header(){
     </>
   );
 }
-
 
 export default Header;
