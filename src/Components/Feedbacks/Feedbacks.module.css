@@ -1,0 +1,28 @@
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.box h6{
+    color: #141024;
+}
+.box p{
+    color: #141024;
+}
+
+.box_card{
+    margin: 50px;
+    border: 2px dotted #141024;
+    padding: 20px;
+    border-radius: 10px;
+    height: 350px;
+}
+.data_box{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container{
+    background-color: #14102456;
+    text-align: center;
+    padding-top: 30px;
+}

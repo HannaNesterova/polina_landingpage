@@ -1,5 +1,6 @@
 .profits{
     background-color: #F9F9F9;
+    padding: 20px;
 }
 .container{
     margin:50px 70px ;
@@ -7,4 +8,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.profits_title p{
+  color: #141024;
+  width: 360px;
+}
+.profits_box{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+}
+.profits_pretitle h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #141024;
 }
