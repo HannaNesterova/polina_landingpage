@@ -6,6 +6,7 @@ import Main from './Components/Main/Main';
 import Profits from './Components/Profits/Profits';
 import Feedbacks from './Components/Feedbacks/Feedbacks';
 import Packages from './Components/Packages/Packages';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Profits />
       <Feedbacks />
       <Packages />
+      <Footer />
 
       
     </div>

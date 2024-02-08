@@ -63,21 +63,24 @@ transition: all 0.1s ease;
 
 
 /* HOVER */
-
-.box_package:hover, .box_package:hover p, .box_package:hover h6, .box_package:hover span, .box_package:hover button {
+.box_package:hover {
     background-color: #141024;
-    cursor: pointer; 
+    cursor: pointer;
+}
+
+.box_package:hover p,
+.box_package:hover h6,
+.box_package:hover span {
+    cursor: pointer;
     color: white;
 }
-.box_package:hover button{
+
+.box_package:hover button {
     background-color: #d52027;
     background-image: linear-gradient(160deg, #d52027 0%, #141024 100%);
 }
 
-
-
-.box_package:active button{
-    background-color: #FFE53B;
-    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+.box_package button:active {
+    background-color: #ffe53b;
+    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
 }
-
