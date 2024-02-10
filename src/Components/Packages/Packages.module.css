@@ -1,3 +1,4 @@
+
 .box_package{
 background-color: #ffffff;
 display: flex;
@@ -45,6 +46,7 @@ transition: all 0.1s ease;
     justify-content: space-around;
     margin-top: 70px;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 

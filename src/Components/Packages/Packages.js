@@ -13,6 +13,7 @@ function Packages(){
       }, []);
 
     return(
+
         <div className={styles.package_cont}>
             <h3>Выберите нужный пакет</h3>
             <div className={styles.main_box} data-aos="zoom-in" data-aos-duration="3000">

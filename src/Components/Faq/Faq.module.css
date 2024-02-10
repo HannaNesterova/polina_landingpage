@@ -1,0 +1,38 @@
+.faq_container{
+    text-align: center;
+    background-color: #141024;
+    padding: 50px;
+}
+.h2{
+    font-size: 40px;
+    color: white;
+    padding: 30px;
+}
+.accordion .item{
+    border: 0;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: 7px;
+    font-size: 23px;
+}
+
+.accordion .item  button{
+    font-size: 19px;
+    color: #141024;
+    font-weight: 700;
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom:  1px solid #D52027;
+    transition: all 1s ease;
+
+}
+.accordion .item button:active::after, 
+.accordion .item button:focus::after{
+    background-color: #D52027;
+    border-radius: 50%; 
+    transition: all 1s ease;
+}
+.accordion .item .accordion-collapse{
+    transition: all .4s ease;
+}
+

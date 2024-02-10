@@ -7,6 +7,7 @@ import Profits from './Components/Profits/Profits';
 import Feedbacks from './Components/Feedbacks/Feedbacks';
 import Packages from './Components/Packages/Packages';
 import Footer from './Components/Footer/Footer';
+import Faq from './Components/Faq/Faq';
 
 function App() {
   return (
@@ -16,9 +17,12 @@ function App() {
       <AboutCourse />
       <Profits />
       <Feedbacks />
-      <Packages />
+    <div className={styles.package_box}>
+        <Packages />
+    </div>
+    
+      <Faq />
       <Footer />
-
       
     </div>
   );
