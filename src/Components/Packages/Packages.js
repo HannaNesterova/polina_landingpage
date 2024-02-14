@@ -1,11 +1,24 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import styles from '../Packages/Packages.module.css';
 import data from '../../data/dataPackages';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ModuleWindow from '../ModulWindow/ModulWindow';
 
 
 function Packages(){
+    const [selectedPackage, setSelectedPackage] = useState(null);
+    const [modalOpen, setModalOpen] = useState(false);
+
+    const openModal = (packageId) => {
+        setSelectedPackage(packageId);
+        setModalOpen(true);
+    };
+    const closeModal = () => {
+        setSelectedPackage(null);
+        setModalOpen(false);
+    };
+
 
     useEffect(() => {
         AOS.init();
@@ -22,10 +35,11 @@ function Packages(){
                         <h6>{item.pretitle}</h6>
                         <span>{item.price}</span>
                         <p>{item.title}</p>
-                        <button>Купить</button>
+                        <button onClick={() => openModal(item.id)}>Купить</button>
                     </div>
                 ))}
             </div>
+            {modalOpen && <ModuleWindow packageId = {selectedPackage} closeModal={closeModal}/>}
         </div>
     )
 }
