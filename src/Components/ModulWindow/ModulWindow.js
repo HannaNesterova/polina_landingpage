@@ -11,24 +11,26 @@ function ModuleWindow({ packageId, closeModal }){
         AOS.init();
         AOS.refresh();
       }, []);
+
     return(
         <div className={styles.main}>
-        <div className={styles.main_box} data-aos="zoom-in" data-aos-duration="3000">
+        <div className={styles.main_box} data-aos="zoom-in" data-aos-duration="400">
         <button onClick={closeModal}>Х</button>
         <div className={styles.pay_box}>
 
             <h6>Перевод на счет</h6>
             <p>Для жителей Европы</p>
             <p>0000 0000 0000 0000</p>
-            <p>{packageData.price}</p>
+            <h5>{packageData.price}</h5>
         </div>
         
         <div className={styles.pay_box}>
             <h6>Перевод на карту</h6>
             <p>Для жителей Украины</p>
             <p>0000 0000 0000 0000</p>
-            <p>{packageData.price}</p>
+            <h5>{packageData.price}</h5>
             </div>
+            <a href="https://t.me/Hanna_Nesterova" target="_blank">Скриншот про оплату <br /> пришлите мне в Telegramу</a>
         </div>
         </div>
     )

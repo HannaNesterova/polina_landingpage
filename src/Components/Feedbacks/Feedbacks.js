@@ -27,7 +27,7 @@ function Feedbacks(){
             }
           },
           {
-            breakpoint: 850,
+            breakpoint: 970,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
@@ -35,7 +35,7 @@ function Feedbacks(){
             }
           },
           {
-            breakpoint: 650,
+            breakpoint: 690,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1

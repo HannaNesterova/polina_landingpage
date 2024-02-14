@@ -35,3 +35,20 @@ font-weight: 600;
 .school_us p{
     color: #141024;
 }
+
+@media all and (max-width: 970px) {
+    .school_us span{ 
+        font-size: 40px;
+    }
+    .pretitle_us p{
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width:650px){
+    .title_us{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

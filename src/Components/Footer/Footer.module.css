@@ -33,3 +33,13 @@
 .footer_flex a:hover{
     color: #D52027;
 }
+
+@media all and (max-width:550px){
+    .footer_flex{
+        flex-direction: column;
+
+    }
+    .footer_flex2{
+        margin-top: 40px;
+    }
+}

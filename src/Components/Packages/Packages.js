@@ -19,7 +19,6 @@ function Packages(){
         setModalOpen(false);
     };
 
-
     useEffect(() => {
         AOS.init();
         AOS.refresh();

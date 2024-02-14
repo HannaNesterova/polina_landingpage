@@ -5,7 +5,9 @@ function AboutCourse(){
         <div className={styles.container}>
             <div className={styles.aboutUs_cont}>
                 <div className={styles.pretitle_us}>
-                    <p><span>Robo School – </span>учреждение для формирования кадрового педагогического резерва в сфере робототехники и программирования</p>
+                    <p><span>Robo School -</span>
+                    учреждение для формирования кадрового педагогического резерва 
+                    в сфере робототехникии программирования</p>
                 </div>
                 <div className={styles.title_us}>
                     <div className={styles.school_us}>

@@ -25,3 +25,19 @@
     font-weight: 700;
     color: #141024;
 }
+
+@media all and (max-width: 970px){
+    .profits_pretitle h2{
+        font-size: 30px;
+    }
+    .profits_box{
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width:420px){
+    .profits_pretitle h2{
+        font-size: 30px;
+        text-align: center;        
+    }
+}
