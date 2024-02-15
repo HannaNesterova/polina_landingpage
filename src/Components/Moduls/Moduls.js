@@ -11,7 +11,7 @@ function Moduls() {
 
     <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1" >
       <Row>
-        <Col sm={4}>
+        <Col sm={6}>
           <ListGroup className={styles.list_group}>
             <ListGroup.Item action href="#link1" className={styles.list_item}>
             1 модуль
@@ -27,7 +27,7 @@ function Moduls() {
             </ListGroup.Item>
           </ListGroup>
         </Col>
-        <Col sm={8}>
+        <Col sm={6}>
           <Tab.Content>
           <Tab.Pane eventKey="#link1">
             <ul>
