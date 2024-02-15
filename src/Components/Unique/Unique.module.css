@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;600&display=swap');
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+
+.container{
+    background-color: #D52027;
+    padding: 100px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title p{
+    color: #141024;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    border: 1px #141024 dashed ;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: white;
+}
+.mainContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    gap: 25px;
+}
+img{
+    max-width: 350px;
+    border-radius: 20px;
+}
+
+@media all and (max-width:970px){
+    .title p{
+        font-size: 20px;
+    }
+}
+@media all and (max-width:690px){
+    .mainContainer{
+        flex-direction: column;
+    }
+}

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;600&display=swap');
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+
 .main{
     margin: 0 auto;
     position: fixed;
@@ -20,6 +27,7 @@
         z-index: 1000; 
         text-align: center;
     }
+    
 .main_box button{
     background-color: #141024;
     color: white;

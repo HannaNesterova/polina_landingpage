@@ -5,29 +5,28 @@ function AboutCourse(){
         <div className={styles.container}>
             <div className={styles.aboutUs_cont}>
                 <div className={styles.pretitle_us}>
-                    <p><span>Robo School -</span>
-                    учреждение для формирования кадрового педагогического резерва 
-                    в сфере робототехникии программирования</p>
+                    <p><span>Полина -</span>
+                  посредник по аренде недвижимости во Вроцлаве.</p>
                 </div>
                 <div className={styles.title_us}>
                     <div className={styles.school_us}>
-                        <span>10</span>
-                        <p> по различным направлениям по робототехнике</p>
+                        <span>5 лет</span>
+                        <p> Cтаж в эмиграции</p>
                     </div>
 
                     <div className={styles.school_us}>
-                        <span>20</span>
-                        <p>Школ, в которых запущена робототехника</p>
+                        <span>4 года</span>
+                        <p>Стаж посредником </p>
                     </div>
 
                     <div className={styles.school_us}>
-                        <span>100</span>
-                        <p>Педагогов прошедших курсы повышения квалификации</p>
+                        <span>300+</span>
+                        <p>Количество заселенный семей</p>
                     </div>
 
                     <div className={styles.school_us}>
-                        <span>10 000</span>
-                        <p>Обученных детей на базе собственных центров</p>
+                        <span>10+</span>
+                        <p>География стран, от куда приезжали мои клиенты</p>
                     </div>
                 </div>
             </div>

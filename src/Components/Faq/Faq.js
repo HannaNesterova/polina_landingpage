@@ -9,63 +9,33 @@ function Faq(){
            
         <Accordion className={styles.accordion}>    
       <Accordion.Item eventKey="0" className={styles.item}>
-      <Accordion.Header >Как будет проходить курс?</Accordion.Header>
+      <Accordion.Header >Можно ли с нуля пройти курс и начать сразу работать? </Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+                  Да – курс рассчитан для новичков в сфере недвижимости. Уроки построены логически и будут постепенно вводить в курс дела. Плюс будут выданы все материалы и рассказаны конкретные шаги в старте работы.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1" className={styles.item}>
-        <Accordion.Header>Как долго я буду иметь доступ к урокам?</Accordion.Header>
+        <Accordion.Header>Можно ли оплатить курс частями?</Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+                  Да, такое возможно – 50% до 1 марта и 50% до 1 апреля
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2" className={styles.item}>
-        <Accordion.Header>Где и как будут проходить уроки?</Accordion.Header>
+        <Accordion.Header>В какой валюте возможна оплата?</Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+                  Предполагаемая оплата в злотых на польский счет либо в гривнях на украинскую карту.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3" className={styles.item}>
-        <Accordion.Header>Сколько длиться курс?</Accordion.Header>
+        <Accordion.Header>Смогу ли я найти первых клиентов?</Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+                  На курсе мы сделаем упор – как сделать так, чтобы клиенты находили вас. Полина продвигается только через личный бренд и соц сети – на курсе научит и вас этому.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="4" className={styles.item}>
-        <Accordion.Header>Буду ли я иметь поддержку куратора?</Accordion.Header>
+        <Accordion.Header>Что если я пропущу уроки – смогу ли просмотреть их в записи?</Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+                  Да- все онлайн уроки остаются у вас навсегда, плюс все прямые эфиры Полина будет сохранять.
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>

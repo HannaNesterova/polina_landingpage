@@ -17,7 +17,6 @@ function ModuleWindow({ packageId, closeModal }){
         <div className={styles.main_box} data-aos="zoom-in" data-aos-duration="400">
         <button onClick={closeModal}>Х</button>
         <div className={styles.pay_box}>
-
             <h6>Перевод на счет</h6>
             <p>Для жителей Европы</p>
             <p>0000 0000 0000 0000</p>

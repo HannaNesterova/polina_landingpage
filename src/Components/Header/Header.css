@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;600&display=swap');
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+
 .navbar .container-fluid{
     background-color: #141024 !important; 
     padding: 17px 40px;
@@ -53,11 +60,11 @@
         content: ''; 
         position: absolute; 
         background-color: #fff; 
-        width: 60%; /* Ширина полоски */
-        height: 3px; /* Высота полоски */
-        top: calc(50% - 2px); /* Положение полоски */
-        left: 50%; /* Положение полоски */
-        transform: translateX(-50%); /* Центрируем полоску */
+        width: 60%; 
+        height: 3px;
+        top: calc(50% - 2px); 
+        left: 50%; 
+        transform: translateX(-50%); 
         transition: all 0.3s ease; 
     }
     

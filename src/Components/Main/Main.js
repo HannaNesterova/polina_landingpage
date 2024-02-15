@@ -17,8 +17,8 @@ function Main(){
         <div className={styles.container_cont}>
         <div className={styles.main_container}>
         <div className={styles.first_cont} data-aos="fade-up" data-aos-duration="3000">
-            <h1>Polana's SCHOOL</h1>
-            <p>Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
+            <h1>Polins_pl</h1>
+            <p>Добро пожаловать на авторский курс <br /> „Посредника по аренде недвижимости в Польше»</p>
             <button className={styles.btn}>Записаться на курс</button>
         </div>
         <div className={styles.second_cont} data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="3000">
