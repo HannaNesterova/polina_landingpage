@@ -20,6 +20,20 @@ function Main(){
             <h1>Polins_pl</h1>
             <p>Добро пожаловать на авторский курс <br /> „Посредника по аренде недвижимости в Польше»</p>
             <button className={styles.btn}>Записаться на курс</button>
+            <div className={styles.start_comp}>
+                <div className={styles.date}>
+                    <h2>Старт</h2>
+                    <p>18.03.2024</p>
+                </div>
+                <div className={styles.date}>
+                    <h2>Длительность</h2>
+                    <p>4 недели</p>
+                </div>
+                <div className={styles.date}>
+                    <h2>Формат</h2>
+                    <p>онлайн</p>
+                </div>
+            </div>
         </div>
         <div className={styles.second_cont} data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="3000">
             <img src={hero} alt='hero' className={styles.hero} />

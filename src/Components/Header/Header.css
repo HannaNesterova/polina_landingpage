@@ -7,7 +7,10 @@ body{
 
 .navbar .container-fluid{
     background-color: #141024 !important; 
-    padding: 17px 40px;
+    padding: 10px 40px;
+    position: fixed;
+    top: 0;
+    z-index: 20;
 }
 
 .navbar-expand-md .navbar-nav {

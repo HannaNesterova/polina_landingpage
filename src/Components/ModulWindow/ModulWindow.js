@@ -11,6 +11,10 @@ function ModuleWindow({ packageId, closeModal }){
         AOS.init();
         AOS.refresh();
       }, []);
+      
+      if (!packageData) {
+        return null; 
+    }
 
     return(
         <div className={styles.main}>
@@ -29,7 +33,7 @@ function ModuleWindow({ packageId, closeModal }){
             <p>0000 0000 0000 0000</p>
             <h5>{packageData.price}</h5>
             </div>
-            <a href="https://t.me/Hanna_Nesterova" target="_blank">Скриншот про оплату <br /> пришлите мне в Telegramу</a>
+            <a href="https://t.me/polins_pl" target="_blank">Скриншот про оплату <br /> пришлите мне в Telegramу</a>
         </div>
         </div>
     )

@@ -1,11 +1,25 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import styles from './Unique.module.css';
 import img02 from '../../img/hero/Krylova-115.jpeg'
 
 function Unique(){
+
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, 
+    )
+
     return(
         <div className={styles.container}>
             <div className={styles.mainContainer}>
-            <div className={styles.mainContainerImg}>
+            <div className={styles.mainContainerImg}
+                     data-aos="zoom-in" data-aos-duration="3000">
+            {/* // data-aos="flip-right"
+            // data-aos-easing="ease-out-cubic"
+            // data-aos-duration="2000" > */}
                 <img src={img02} alt='img'/>
             </div>
             <div className={styles.title}>

@@ -15,15 +15,6 @@ body{
 .container{
     margin: 100px 40px;
 }
-ul li::before {
-    content: "• ";
-    font-weight: 800;
-    font-size: 25px;
-    color: #D52027; 
-}
-ul, ol {
-    list-style-type: none;
-}
 .list_group .list_item{
     background-color: white;
     border: 1px #141024 solid;
