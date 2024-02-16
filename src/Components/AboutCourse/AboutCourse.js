@@ -2,7 +2,7 @@ import styles from './AboutCourse.module.css';
 
 function AboutCourse(){
     return(
-        <div className={styles.container}>
+        <div className={styles.container} >
             <div className={styles.aboutUs_cont}>
                 <div className={styles.pretitle_us}>
                     <p><span>Полина -</span>

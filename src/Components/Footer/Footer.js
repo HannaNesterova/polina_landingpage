@@ -1,15 +1,39 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import styles from './Footer.module.css';
+import PersonalData from '../PersonalData /PersonalData';
+import PublickOffer from '../PublicOffer/PublicOffer';
 
 function Footer(){
+    const [showPublicOffer, setShowPublicOffer] = useState(false);
+    const [showPersonalData, setShowPersonalData] = useState(false);
+
       useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
+
+  const handlePublicOfferClick = (e) => {
+    e.preventDefault();
+    setShowPublicOffer(true);
+    setShowPersonalData(false);
+  };
+
+  const handlePersonalDataClick = (e) => {
+    e.preventDefault();
+    setShowPublicOffer(false);
+    setShowPersonalData(true);
+  };
+
+  const handleAreaDoubleClick = () => {
+    setShowPublicOffer(false);
+    setShowPersonalData(false);
+};
+
     return(
-        <div className={styles.container }>
+        <div className={styles.container} id='contacts-section'  onDoubleClick={handleAreaDoubleClick}>
             <div className={styles.footer_flex}
             data-aos="fade-down" data-aos-duration="3000">
                 <div className={styles.socialmedia}>
@@ -24,13 +48,15 @@ function Footer(){
                     </a>
                 </div>
                 <div className={styles.footer_flex2}>
-                    <a href='#' target='_blank'>Публичная оферта</a>
-                    <a href='#' target='_blank'>Обработка персональных данных</a>
+                    <Link to='/public-offer' onClick={handlePublicOfferClick}>Публичная оферта</Link>
+                    <Link to='/personal-data' onClick={handlePersonalDataClick}>Обработка персональных данных</Link>
                     <a href='https://nesterova-dev.online' target='_blank'>Разработка сайта</a>
                 </div>
             </div>
             <div className={styles.developing}>
                 <p> ⓒ made by Nesterova Hanna</p>
+                {showPublicOffer && <PublickOffer />}
+                {showPersonalData && <PersonalData />}
             </div>
          
         </div>

@@ -25,7 +25,7 @@ function Packages(){
       }, []);
 
     return(
-        <div className={styles.back}>
+        <div className={styles.back} id='packages-section'>
         <div className={styles.package_cont}>
             <h2 data-aos="fade-down" data-aos-duration="3000">Выберите нужный пакет</h2>
             

@@ -4,13 +4,6 @@ import 'aos/dist/aos.css';
 import styles from './Unique.module.css';
 import img02 from '../../img/hero/Krylova-115.jpeg'
 
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    Link
-  }from "react-router-dom";
-
 function Unique(){
 
     useEffect(() => {
@@ -20,7 +13,7 @@ function Unique(){
     )
 
     return(
-        <div className={styles.container}>
+        <div className={styles.container}  id="about-section">
             <div className={styles.mainContainer}>
             <div className={styles.mainContainerImg}
             data-aos="zoom-in" data-aos-duration="3000">

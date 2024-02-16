@@ -53,8 +53,8 @@ function Feedbacks(){
       };
    
     return(
-        <div className={styles.container}>
-            <h2  data-aos="fade-down" data-aos-duration="3000">
+        <div className={styles.container} id="feedbacks-section">
+            <h2  data-aos="fade-down" data-aos-duration="2000">
               Отзывы о моей работе</h2>
         <div className={styles.data_box}>
             <Slider {...settings}>

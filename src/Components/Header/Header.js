@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
 import Button from 'react-bootstrap/Button';
@@ -25,14 +26,13 @@ function Header() {
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                   Меню
                 </Offcanvas.Title>
-                <p>kjnfjbgfjkb</p>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Курс</Nav.Link>
-                  <Nav.Link href="#action2">Социальные сети</Nav.Link>
-                  <Nav.Link href="#action3">Work</Nav.Link>
-                  <Nav.Link href="#action4">Обо мне</Nav.Link>
+                  <Link to="about-section" className="nav-link" smooth={true} duration={500}>О курсе</Link>
+                  <Link to="feedbacks-section" className="nav-link" smooth={true} duration={500}>Отзывы</Link>
+                  <Link to="packages-section" className="nav-link" smooth={true} duration={500}>Преобрести</Link>
+                  <Link to="contacts-section" className="nav-link" smooth={true} duration={500}>Контакты</Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
