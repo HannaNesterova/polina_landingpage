@@ -1,10 +1,19 @@
+import { useEffect } from 'react';
 import styles from './Profits.module.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Profits(){
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
+      
     return(
         <div className={styles.profits}>
         <div className={styles.container}>
-            <div className={styles.profits_pretitle}>
+            <div className={styles.profits_pretitle} 
+            data-aos="fade-down" data-aos-duration="3000">
                 <h2>Что вы получите после курса</h2>
             </div>
             <div className={styles.profits_box}>

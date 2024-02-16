@@ -11,9 +11,10 @@ body{
     padding: 50px;
 }
 .h2{
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     padding: 30px;
+    font-weight: 600;
 }
 .accordion .item{
     border: 0;

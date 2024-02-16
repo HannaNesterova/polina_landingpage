@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -8,6 +11,11 @@ import ItemFeedback from './ItemFeedback';
 
 
 function Feedbacks(){
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
 
     const settings = {
         dots: true,
@@ -46,7 +54,8 @@ function Feedbacks(){
    
     return(
         <div className={styles.container}>
-            <h2>Отзывы о моей работе</h2>
+            <h2  data-aos="fade-down" data-aos-duration="3000">
+              Отзывы о моей работе</h2>
         <div className={styles.data_box}>
             <Slider {...settings}>
             {data.map((item, index) => (

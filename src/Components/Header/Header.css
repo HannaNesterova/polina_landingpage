@@ -24,16 +24,26 @@ body{
     font-weight: 300;
     font-family: 'Jost', sans-serif;
 }
-.navbar-nav a:hover{
-    text-shadow: 4px 5px 5px #fff;
-    color: white;
+.navbar-expand-md .navbar-nav .nav-link:hover:hover,
+.navbar-expand-md .navbar-nav .nav-link:hover:active,
+.navbar-expand-md .navbar-nav .nav-link:hover:focus{
+    color: #D52027;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+     color: #D52027;
 }
 
 .navbar-brand{
     font-size: 24px !important;
     color: white;
-    font-weight: 400;
+    font-weight: 600;
     font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+}
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:focus{
+    color: #D52027;
 }
 
 .my-navbar {
@@ -83,3 +93,14 @@ body{
 .navbar-toggler .navbar-toggler-icon {
     display: none;
 }
+
+.offcanvas-body{
+    background-color: #141024 !important; 
+    text-align: center;
+
+}
+.offcanvas-body a{
+    font-weight: 400;
+    font-size: 45px;
+}
+

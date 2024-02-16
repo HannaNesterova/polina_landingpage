@@ -68,7 +68,7 @@ font-weight: 600;
 @media all and (max-width:820px){
     .title_us{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: flex-start;
         text-align: center;
     }

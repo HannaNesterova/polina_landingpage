@@ -2,8 +2,12 @@
 
 body{
     font-family: 'Jost', sans-serif;
+    background-color: #F9F9F9;
 }
 
+ul {
+    list-style: none;
+}
 
 .title{
     font-size: 30px;
@@ -13,7 +17,7 @@ body{
     padding-bottom: 30px;
 }
 .container{
-    margin: 100px 40px;
+    margin: 50px 40px;
 }
 .list_group .list_item{
     background-color: white;

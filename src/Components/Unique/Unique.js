@@ -4,6 +4,13 @@ import 'aos/dist/aos.css';
 import styles from './Unique.module.css';
 import img02 from '../../img/hero/Krylova-115.jpeg'
 
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+  }from "react-router-dom";
+
 function Unique(){
 
     useEffect(() => {
@@ -16,10 +23,7 @@ function Unique(){
         <div className={styles.container}>
             <div className={styles.mainContainer}>
             <div className={styles.mainContainerImg}
-                     data-aos="zoom-in" data-aos-duration="3000">
-            {/* // data-aos="flip-right"
-            // data-aos-easing="ease-out-cubic"
-            // data-aos-duration="2000" > */}
+            data-aos="zoom-in" data-aos-duration="3000">
                 <img src={img02} alt='img'/>
             </div>
             <div className={styles.title}>

@@ -1,10 +1,18 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Accordion from 'react-bootstrap/Accordion';
 import styles from './Faq.module.css'
 
 function Faq(){
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
     return(
         <div className={styles.faq_container}>
-            <h2 className={styles.h2}>FAQ</h2>
+            <h2 className={styles.h2}  data-aos="fade-down" data-aos-duration="3000">
+              FAQ</h2>
 
            
         <Accordion className={styles.accordion}>    

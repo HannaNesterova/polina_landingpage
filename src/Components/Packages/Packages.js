@@ -25,11 +25,11 @@ function Packages(){
       }, []);
 
     return(
-
+        <div className={styles.back}>
         <div className={styles.package_cont}>
-            <h2>Выберите нужный пакет</h2>
+            <h2 data-aos="fade-down" data-aos-duration="3000">Выберите нужный пакет</h2>
             
-            <div className={styles.main_box} data-aos="zoom-in" data-aos-duration="3000">
+            <div className={styles.main_box}>
                 {data.map((item) => (
                     <div key={item.id} className={styles.box_package}>
                         <h6>{item.pretitle}</h6>
@@ -41,6 +41,7 @@ function Packages(){
                 ))}
             </div>
             {modalOpen && <ModuleWindow packageId = {selectedPackage} closeModal={closeModal}/>}
+        </div>
         </div>
     )
 }

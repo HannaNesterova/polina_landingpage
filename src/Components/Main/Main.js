@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import hero from '../../img/01.png';
+import hero from '../../img/hero/Krylova.png';
 import styles from './Main.module.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

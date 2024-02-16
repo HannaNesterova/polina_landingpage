@@ -3,11 +3,9 @@
 body{
     font-family: 'Jost', sans-serif;
 }
-
-
 .container{
     background-color: #D52027;
-    padding: 100px 20px;
+    padding: 50px 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -42,5 +40,8 @@ img{
 @media all and (max-width:690px){
     .mainContainer{
         flex-direction: column;
+    }
+    img{
+        width: 260px;
     }
 }

@@ -5,8 +5,8 @@ body{
 }
 
 .profits{
-    background-color: #F9F9F9;
-    padding: 100px 20px;
+    background-color: white;
+    padding: 50px 20px;
 }
 .container{
     margin:50px 70px ;
@@ -34,7 +34,7 @@ body{
     justify-content: center;
 }
 .profits_pretitle h2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color: #141024;
 }
