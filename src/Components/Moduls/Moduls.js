@@ -1,7 +1,4 @@
-import { useEffect } from 'react';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
-
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
