@@ -35,7 +35,7 @@ function ModuleWindow({ packageId, closeModal }){
             <p>Получатель: Petsevych Polina</p>
             <h5>{packageData.price}</h5>
             </div>
-            <a href="https://t.me/polins_pl" target="_blank" rel="noreferrer">Скриншот про оплату <br /> пришлите мне в Telegramу</a>
+            <a href="https://t.me/polins_pl" target="_blank" rel="noreferrer">Скриншот про оплату <br /> пришлите мне в Telegram</a>
         </div>
         </div>
     )
