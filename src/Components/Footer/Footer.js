@@ -19,12 +19,14 @@ function Footer(){
     e.preventDefault();
     setShowPublicOffer(true);
     setShowPersonalData(false);
+    window.open('/public-offer', '_blank');
   };
 
   const handlePersonalDataClick = (e) => {
     e.preventDefault();
     setShowPublicOffer(false);
     setShowPersonalData(true);
+    window.open('/personal-data', '_blank');
   };
 
   const handleAreaDoubleClick = () => {
@@ -48,15 +50,13 @@ function Footer(){
                     </a>
                 </div>
                 <div className={styles.footer_flex2}>
-                    <Link to='/public-offer' onClick={handlePublicOfferClick}>Публичная оферта</Link>
+                    <Link to='/public-offer' onClick={handlePublicOfferClick} target='_blank'>Публичная оферта</Link>
                     <Link to='/personal-data' onClick={handlePersonalDataClick}>Обработка персональных данных</Link>
                     <a href='https://nesterova-dev.online' target='_blank' rel="noreferrer">Разработка сайта</a>
                 </div>
             </div>
             <div className={styles.developing}>
                 <a href='https://www.instagram.com/hanna_nesterova' target='_blank' rel="noreferrer"> ⓒ made by Nesterova Hanna </a>
-                {showPublicOffer && <PublickOffer />}
-                {showPersonalData && <PersonalData />}
             </div>
         </div>
     )

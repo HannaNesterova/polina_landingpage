@@ -5,7 +5,20 @@ body{
 }
 
 h1{
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     text-align: center;
+}
+
+.h2{
+    color: white;
+    font-size: 18px;
+}
+.publicoffer p{
+    color: white;
+    font-size: 14px;
+}
+.public{
+    background-color: #141024 !important;
+    padding: 30px;
 }
