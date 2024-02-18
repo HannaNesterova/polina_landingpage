@@ -6,8 +6,7 @@ import styles from './Footer.module.css';
 
 
 function Footer(){
-    const [showPublicOffer, setShowPublicOffer] = useState(false);
-    const [showPersonalData, setShowPersonalData] = useState(false);
+   
 
       useEffect(() => {
     AOS.init();
@@ -16,15 +15,11 @@ function Footer(){
 
   const handlePublicOfferClick = (e) => {
     e.preventDefault();
-    setShowPublicOffer(true);
-    setShowPersonalData(false);
     window.open('/public-offer', '_blank');
   };
 
   const handlePersonalDataClick = (e) => {
     e.preventDefault();
-    setShowPublicOffer(false);
-    setShowPersonalData(true);
     window.open('/personal-data', '_blank');
   };
 
