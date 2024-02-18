@@ -5,7 +5,7 @@ body{
     background-color: #F9F9F9;
 }
 
-ul {
+.li li{
     list-style: none;
 }
 
