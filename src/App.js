@@ -49,7 +49,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} exact/>
           <Route path="/public-offer" element={<PublicOfferPage />} />
           <Route path="/personal-data" element={<PersonalDataPage />} />
         </Routes>

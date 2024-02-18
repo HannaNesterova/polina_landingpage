@@ -13,15 +13,6 @@ function Footer(){
     AOS.refresh();
   }, []);
 
-  const handlePublicOfferClick = (e) => {
-    e.preventDefault();
-    window.open('/public-offer', '_blank');
-  };
-
-  const handlePersonalDataClick = (e) => {
-    e.preventDefault();
-    window.open('/personal-data', '_blank');
-  };
 
     return(
         <div className={styles.container} id='contacts-section'>
@@ -39,8 +30,8 @@ function Footer(){
                     </a>
                 </div>
                 <div className={styles.footer_flex2}>
-                    <Link to='/public-offer' target='_blank' rel="noreferrer" onClick={handlePublicOfferClick}>Публичная оферта</Link>
-                    <Link to='/personal-data' onClick={handlePersonalDataClick} target='_blank' rel="noreferrer">Обработка персональных данных</Link>
+                    <Link to='/public-offer' target='_blank' rel="noreferrer">Публичная оферта</Link>
+                    <Link to='/personal-data' target='_blank' rel="noreferrer">Обработка персональных данных</Link>
                     <a href='https://nesterova-dev.online' target='_blank' rel="noreferrer">Разработка сайта</a>
                 </div>
             </div>
