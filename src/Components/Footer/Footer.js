@@ -54,7 +54,7 @@ function Footer(){
                 </div>
             </div>
             <div className={styles.developing}>
-                <p> ⓒ made by Nesterova Hanna</p>
+                <a href='https://www.instagram.com/hanna_nesterova' target='_blank' rel="noreferrer"> ⓒ made by Nesterova Hanna </a>
                 {showPublicOffer && <PublickOffer />}
                 {showPersonalData && <PersonalData />}
             </div>
