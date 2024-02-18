@@ -42,7 +42,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from "./Components/HomePage/HomePage";
 import PublicOfferPage from './Components/PublicOffer/PublicOfferPage';
-import PersonalData from './Components/PersonalData /PersonalData';
+import PersonalDataPage from './Components/PersonalData /PersonalDataPage';
 
 function App() {
   return (
@@ -51,7 +51,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/public-offer" element={<PublicOfferPage />} />
-          <Route path="/personal-data" element={<PersonalData />} />
+          <Route path="/personal-data" element={<PersonalDataPage />} />
         </Routes>
       </Router>
     </div>

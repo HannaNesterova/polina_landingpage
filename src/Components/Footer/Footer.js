@@ -39,8 +39,8 @@ function Footer(){
                     </a>
                 </div>
                 <div className={styles.footer_flex2}>
-                    <Link to='/public-offer' onClick={handlePublicOfferClick} target='_blank'>Публичная оферта</Link>
-                    <Link to='/personal-data' onClick={handlePersonalDataClick}>Обработка персональных данных</Link>
+                <a href='/public-offer' target='_blank' rel="noreferrer" onClick={handlePublicOfferClick}>Публичная оферта</a>
+                    <a href='/personal-data' onClick={handlePersonalDataClick} target='_blank' rel="noreferrer">Обработка персональных данных</a>
                     <a href='https://nesterova-dev.online' target='_blank' rel="noreferrer">Разработка сайта</a>
                 </div>
             </div>
