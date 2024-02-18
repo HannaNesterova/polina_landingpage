@@ -2,7 +2,7 @@ import styles from '../PublicOffer/PublicOffer.module.css';
 
 function PublickOffer(){
     return(
-        <div className={styles.public} id="/public-offer">
+        <div className={styles.public}>
         <div className={styles.publicoffer}>
            <h1 className={styles.h1}>ПУБЛИЧНАЯ ОФЕРТА О ЗАКЛЮЧЕНИИ ДОГОВОРА ОБ ОКАЗАНИИ УСЛУГ</h1> 
            <p>Индивидуальный предприниматель Yanina Korobova (далее — "Исполнитель"), зарегистрированный и действующий в соответствии с законодательством РП, под фирмой Yanina Korobova Korob_Legal предлагает неограниченному кругу лиц заключить настоящий Договор об оказании услуг (далее — "Договор") на нижеуказанных условиях:</p>

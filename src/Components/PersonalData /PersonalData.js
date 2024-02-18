@@ -2,7 +2,7 @@ import styles from "./PersonalData.module.css"
 
 function PersonalData(){
     return(
-        <div className={styles.background} id="/personal-data">
+        <div className={styles.background}>
             <div className={styles.b_m}>
            <h1 className={styles.h1}>PRZETWARZANIE DANYCH OSOBOWYCH</h1>
            <p className={styles.p}>1. Zgodnie z art. 13 ust. 1 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) – dalej: RODO, informujemy, że administratorem Pani/Pana danych osobowych jest:
