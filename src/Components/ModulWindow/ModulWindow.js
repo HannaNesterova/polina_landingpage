@@ -23,14 +23,16 @@ function ModuleWindow({ packageId, closeModal }){
         <div className={styles.pay_box}>
             <h6>Перевод на счет</h6>
             <p>Для жителей Европы</p>
-            <p>0000 0000 0000 0000</p>
+            <p>58 1090 2590 0000 0001 5037 8926</p>
+            <p>назначение платежа: skolenie i nazwisko</p>
             <h5>{packageData.price}</h5>
         </div>
         
         <div className={styles.pay_box}>
             <h6>Перевод на карту</h6>
             <p>Для жителей Украины</p>
-            <p>0000 0000 0000 0000</p>
+            <p>5363 5420 1263 9770</p>
+            <p>Получатель: Petsevych Polina</p>
             <h5>{packageData.price}</h5>
             </div>
             <a href="https://t.me/polins_pl" target="_blank" rel="noreferrer">Скриншот про оплату <br /> пришлите мне в Telegramу</a>

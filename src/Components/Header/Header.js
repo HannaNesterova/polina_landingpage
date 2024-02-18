@@ -77,7 +77,7 @@ function Header() {
                     duration={500}
                     onClick={handleLinkClick}
                   >
-                    Преобрести
+                    Приобрести
                   </Link>
                   <Link
                     to="contacts-section"
