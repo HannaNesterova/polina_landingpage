@@ -8,6 +8,7 @@ import Packages from "../Packages/Packages";
 import Feedbacks from "../Feedbacks/Feedbacks";
 import Faq from "../Faq/Faq";
 import Footer from "../Footer/Footer";
+import ForWho from "../ForWho/ForWho";
 
 function HomePage() {
     return (
@@ -21,6 +22,7 @@ function HomePage() {
          <Packages />
          <Feedbacks />
          <Faq />
+         <ForWho />
          <Footer />
       </div>
     );

@@ -7,13 +7,13 @@ body{
 
 .container{
     background-color: #141024;
-    padding: 50px;
+    padding: 15px 50px;
     margin-top: 1px;
 }
 
 .socialmedia svg{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 .socialmedia a:hover{
     color: #D52027;
