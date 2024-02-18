@@ -3,12 +3,11 @@ import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import styles from './Footer.module.css';
-import PersonalData from '../PersonalData /PersonalData';
-import PublickOffer from '../PublicOffer/PublicOffer';
+
 
 function Footer(){
-    const [showPublicOffer, setShowPublicOffer] = useState(false);
-    const [showPersonalData, setShowPersonalData] = useState(false);
+    const [ setShowPublicOffer] = useState(false);
+    const [ setShowPersonalData] = useState(false);
 
       useEffect(() => {
     AOS.init();
