@@ -6,8 +6,8 @@ import styles from './Footer.module.css';
 
 
 function Footer(){
-    const [ setShowPublicOffer] = useState(false);
-    const [ setShowPersonalData] = useState(false);
+    const [showPublicOffer, setShowPublicOffer] = useState(false);
+    const [showPersonalData, setShowPersonalData] = useState(false);
 
       useEffect(() => {
     AOS.init();
@@ -28,13 +28,8 @@ function Footer(){
     window.open('/personal-data', '_blank');
   };
 
-  const handleAreaDoubleClick = () => {
-    setShowPublicOffer(false);
-    setShowPersonalData(false);
-};
-
     return(
-        <div className={styles.container} id='contacts-section'  onDoubleClick={handleAreaDoubleClick}>
+        <div className={styles.container} id='contacts-section'>
             <div className={styles.footer_flex}
             data-aos="fade-down" data-aos-duration="3000">
                 <div className={styles.socialmedia}>
