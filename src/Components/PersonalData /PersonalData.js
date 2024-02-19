@@ -6,8 +6,8 @@ function PersonalData(){
             <div className={styles.b_m}>
            <h1 className={styles.h1}>PRZETWARZANIE DANYCH OSOBOWYCH</h1>
            <p className={styles.p}>1. Zgodnie z art. 13 ust. 1 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) – dalej: RODO, informujemy, że administratorem Pani/Pana danych osobowych jest:
-            Yanina Korabava Korob_Legal (NIP 7831867722, REGON 523581905 ) adres ul.Rybaki 14/21 61-883 Poznań.
-            W sprawach dotyczących danych osobowych można kontaktować się pod adresem email: korob.legal@gmail.com</p>
+           Polina Petsevych POLINS_PL (NIP 8961613245, REGON 521876298 ) adres ul.Brzozowa 38, Wrocław.
+            W sprawach dotyczących danych osobowych można kontaktować się pod adresem email: paulina.piecewicz20@gmail.com</p>
 
 
             <p className={styles.p}> 2. Dane osobowe pozyskane w związku z zawarciem z Panią/Panem umowy będą przetwarzane w następujących celach:</p>

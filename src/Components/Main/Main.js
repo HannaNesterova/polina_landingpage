@@ -16,7 +16,7 @@ function Main(){
         <div className={styles.main_container}>
         <div className={styles.first_cont} data-aos="fade-up" data-aos-duration="3000">
             <h1>Polins_pl</h1>
-            <p>Добро пожаловать на авторский курс <br /> „Посредника по аренде недвижимости в Польше»</p>
+            <p>Добро пожаловать на авторский курс <br /> "Посредника по аренде недвижимости в Польше"</p>
             <Link to="packages-section"><button className={styles.btn}>Записаться на курс</button></Link>
             <div className={styles.start_comp}>
                 <div className={styles.date}>
