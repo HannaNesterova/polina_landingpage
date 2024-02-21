@@ -35,6 +35,7 @@ function Footer(){
                     <a href='https://nesterova-dev.online' target='_blank' rel="noreferrer">Разработка сайта</a>
                 </div>
             </div>
+            <p>По всем вопросам прошу писать мне на електронную почту: paulina.piecewicz20@gmail.com <br /> или в директ Инстаграм </p>
             <div className={styles.developing}>
                 <a href='https://www.instagram.com/hanna_nesterova' target='_blank' rel="noreferrer"> ⓒ made by Nesterova Hanna </a>
             </div>
