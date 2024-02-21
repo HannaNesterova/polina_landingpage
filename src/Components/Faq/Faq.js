@@ -37,13 +37,13 @@ function Faq(){
       <Accordion.Item eventKey="3" className={styles.item}>
         <Accordion.Header>Смогу ли я найти первых клиентов?</Accordion.Header>
         <Accordion.Body>
-                  На курсе мы сделаем упор – как сделать так, чтобы клиенты находили вас. Полина продвигается только через личный бренд и соц сети – на курсе научит и вас этому.
+        Я продвигаюсь только через личный бренд и соц сети – на курсе научу и вас этому.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="4" className={styles.item}>
         <Accordion.Header>Что если я пропущу уроки – смогу ли просмотреть их в записи?</Accordion.Header>
         <Accordion.Body>
-                  Да- все онлайн уроки остаются у вас навсегда, плюс все прямые эфиры Полина будет сохранять.
+        Да- все онлайн уроки остаются у вас навсегда /плюс все прямые эфиры буду сохранять.
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>

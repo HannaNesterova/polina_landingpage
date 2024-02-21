@@ -5,8 +5,8 @@ function AboutCourse(){
         <div className={styles.container} >
             <div className={styles.aboutUs_cont}>
                 <div className={styles.pretitle_us}>
-                    <p><span>Полина -</span>
-                  посредник по аренде недвижимости во Вроцлаве.</p>
+                    <p><span>Меня зовут Полина -</span>
+                     посредник по аренде недвижимости во Вроцлаве.</p>
                 </div>
                 <div className={styles.title_us}>
                     <div className={styles.school_us}>
@@ -26,7 +26,7 @@ function AboutCourse(){
 
                     <div className={styles.school_us}>
                         <span>10+</span>
-                        <p>География стран, от куда приезжали мои клиенты</p>
+                        <p>География стран, откуда приезжали мои клиенты</p>
                     </div>
                 </div>
             </div>
